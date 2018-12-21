@@ -1,0 +1,11 @@
+<suite name="Test_1">
+    <parameter name="name" value="gosia"/>
+    <parameter name="tokenNr" value="111111"/>
+    <test name="Wykonaj edycje">
+
+        <classes>
+            <class name="pl.jakub.myWebsite.pages.homePage.HomePageTest"/>
+            <class name="pl.jakub.myWebsite.pages.ballonPage.BallonPageTest"/>
+        </classes>
+    </test>
+</suite>
